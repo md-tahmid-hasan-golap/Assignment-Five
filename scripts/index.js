@@ -364,3 +364,20 @@ mainContainer.appendChild(p);
 
 
 })
+
+
+
+
+
+document.getElementById("Clear_History").addEventListener("click", function(){
+ document.getElementById('Activity_log1').innerText = "";
+ document.getElementById('Activity_log2').innerText = "";
+ document.getElementById('Activity_log3').innerText = "";
+ document.getElementById('Activity_log4').innerText = "";
+ document.getElementById('Activity_log5').innerText = "";
+ document.getElementById('Activity_log6').innerText = "";
+ document.getElementById('Activity_log7').innerText = "";
+ document.getElementById('Activity_log8').innerText = "";
+ document.getElementById('Activity_log9').innerText = "";
+
+})
